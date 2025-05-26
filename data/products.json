@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Mini Drone",
+        "category": "electronics",
+        "price": 4000,
+        "original_price": 4500,
+        "discount": 11,
+        "description": "Model : E99\r\nFlying Time : 5mins",
+        "images": [
+            "1748290025_28674-500x500.webp",
+            "1748290025_d5d1a1043006f62ca7c9fbd1b1e3d671-hi.jpg",
+            "1748290025_images.jpg",
+            "1748290025_Sf49d8b48cd23497faaf5cf7b3e68ca5eN.webp"
+        ],
+        "thumbnail": "1748290025_28674-500x500.webp",
+        "stock": 2,
+        "rating": 0,
+        "reviews": 0,
+        "sold": 0,
+        "colors": [
+            "White"
+        ],
+        "sizes": [
+            ""
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Smart Watch",
+        "category": "electronics",
+        "price": 6200,
+        "original_price": 7500,
+        "discount": 17,
+        "description": "Model : SW500\r\nFeatures: Heart rate, Bluetooth, Notifications",
+        "images": [
+            "https:\/\/image.pollinations.ai\/prompt\/Smart%20Watch?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Smart%20Watch?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Smart%20Watch?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Smart%20Watch?width=960&height=540&nologo=true"
+        ],
+        "thumbnail": "https:\/\/image.pollinations.ai\/prompt\/Smart%20Watch?width=960&height=540&nologo=true",
+        "stock": 8,
+        "rating": 4.2,
+        "reviews": 25,
+        "sold": 120,
+        "colors": [
+            "Black",
+            "Pink"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Bluetooth Speaker",
+        "category": "electronics",
+        "price": 3500,
+        "original_price": 4200,
+        "discount": 17,
+        "description": "Model : BS20\r\nBattery: 6 Hours Playback",
+        "images": [
+            "https:\/\/image.pollinations.ai\/prompt\/Bluetooth%20Speaker?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Bluetooth%20Speaker?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Bluetooth%20Speaker?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Bluetooth%20Speaker?width=960&height=540&nologo=true"
+        ],
+        "thumbnail": "https:\/\/image.pollinations.ai\/prompt\/Bluetooth%20Speaker?width=960&height=540&nologo=true",
+        "stock": 5,
+        "rating": 4,
+        "reviews": 18,
+        "sold": 98,
+        "colors": [
+            "Blue",
+            "Red"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Wireless Earbuds",
+        "category": "electronics",
+        "price": 5800,
+        "original_price": 6500,
+        "discount": 11,
+        "description": "Model : WE100\r\nNoise Cancellation Enabled",
+        "images": [
+            "https:\/\/image.pollinations.ai\/prompt\/Wireless%20Earbuds?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Wireless%20Earbuds?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Wireless%20Earbuds?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Wireless%20Earbuds?width=960&height=540&nologo=true"
+        ],
+        "thumbnail": "https:\/\/image.pollinations.ai\/prompt\/Wireless%20Earbuds?width=960&height=540&nologo=true",
+        "stock": 6,
+        "rating": 4.5,
+        "reviews": 34,
+        "sold": 203,
+        "colors": [
+            "White",
+            "Black"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Gaming Mouse",
+        "category": "electronics",
+        "price": 3100,
+        "original_price": 3900,
+        "discount": 20,
+        "description": "Model : GM800\r\nRGB Lighting, DPI Adjustable",
+        "images": [
+            "https:\/\/image.pollinations.ai\/prompt\/Gaming%20Mouse?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Gaming%20Mouse?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Gaming%20Mouse?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Gaming%20Mouse?width=960&height=540&nologo=true"
+        ],
+        "thumbnail": "https:\/\/image.pollinations.ai\/prompt\/Gaming%20Mouse?width=960&height=540&nologo=true",
+        "stock": 11,
+        "rating": 3.8,
+        "reviews": 42,
+        "sold": 310,
+        "colors": [
+            "Black",
+            "Grey"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Portable Fan",
+        "category": "home appliances",
+        "price": 2200,
+        "original_price": 2700,
+        "discount": 18,
+        "description": "Model : PF40\r\nUSB Rechargeable Fan",
+        "images": [
+            "https:\/\/image.pollinations.ai\/prompt\/Portable%20Fan?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Portable%20Fan?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Portable%20Fan?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Portable%20Fan?width=960&height=540&nologo=true"
+        ],
+        "thumbnail": "https:\/\/image.pollinations.ai\/prompt\/Portable%20Fan?width=960&height=540&nologo=true",
+        "stock": 13,
+        "rating": 3.9,
+        "reviews": 22,
+        "sold": 78,
+        "colors": [
+            "White",
+            "Blue"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Action Camera",
+        "category": "electronics",
+        "price": 9800,
+        "original_price": 11500,
+        "discount": 15,
+        "description": "Model : ACX100\r\n4K Recording, Waterproof",
+        "images": [
+            "https:\/\/image.pollinations.ai\/prompt\/Action%20Camera?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Action%20Camera?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Action%20Camera?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Action%20Camera?width=960&height=540&nologo=true"
+        ],
+        "thumbnail": "https:\/\/image.pollinations.ai\/prompt\/Action%20Camera?width=960&height=540&nologo=true",
+        "stock": 7,
+        "rating": 4.6,
+        "reviews": 49,
+        "sold": 275,
+        "colors": [
+            "Black"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "LED Desk Lamp",
+        "category": "home appliances",
+        "price": 1900,
+        "original_price": 2500,
+        "discount": 24,
+        "description": "Model : DLED21\r\nTouch Control, 3 Brightness Modes",
+        "images": [
+            "https:\/\/image.pollinations.ai\/prompt\/LED%20Desk%20Lamp?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/LED%20Desk%20Lamp?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/LED%20Desk%20Lamp?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/LED%20Desk%20Lamp?width=960&height=540&nologo=true"
+        ],
+        "thumbnail": "https:\/\/image.pollinations.ai\/prompt\/LED%20Desk%20Lamp?width=960&height=540&nologo=true",
+        "stock": 18,
+        "rating": 4.1,
+        "reviews": 30,
+        "sold": 144,
+        "colors": [
+            "White"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Fitness Tracker Band",
+        "category": "electronics",
+        "price": 4300,
+        "original_price": 5000,
+        "discount": 14,
+        "description": "Model : FT21\r\nSteps, Sleep, Heart Monitoring",
+        "images": [
+            "https:\/\/image.pollinations.ai\/prompt\/Fitness%20Tracker%20Band?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Fitness%20Tracker%20Band?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Fitness%20Tracker%20Band?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/Fitness%20Tracker%20Band?width=960&height=540&nologo=true"
+        ],
+        "thumbnail": "https:\/\/image.pollinations.ai\/prompt\/Fitness%20Tracker%20Band?width=960&height=540&nologo=true",
+        "stock": 10,
+        "rating": 4.3,
+        "reviews": 27,
+        "sold": 163,
+        "colors": [
+            "Black",
+            "Red"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "USB Charging Hub",
+        "category": "electronics",
+        "price": 1700,
+        "original_price": 2000,
+        "discount": 15,
+        "description": "Model : UCH10\r\n4 USB Ports, Fast Charging",
+        "images": [
+            "https:\/\/image.pollinations.ai\/prompt\/USB%20Charging%20Hub?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/USB%20Charging%20Hub?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/USB%20Charging%20Hub?width=960&height=540&nologo=true",
+            "https:\/\/image.pollinations.ai\/prompt\/USB%20Charging%20Hub?width=960&height=540&nologo=true"
+        ],
+        "thumbnail": "https:\/\/image.pollinations.ai\/prompt\/USB%20Charging%20Hub?width=960&height=540&nologo=true",
+        "stock": 15,
+        "rating": 4,
+        "reviews": 19,
+        "sold": 102,
+        "colors": [
+            "White",
+            "Black"
+        ]
+    }
+]
