@@ -14,18 +14,33 @@ include 'includes/header.php';
 <div class="welcome-banner">
     <div class="row align-items-center">
         <div class="col-md-8">
-            <h2>Welcome to MiniMart Lanka</h2>
-            <p class="mb-md-0">Discover quality products at amazing prices!</p>
+            <h2><i class="fas fa-gift me-2"></i>Welcome to MiniMart Lanka</h2>
+            <p class="mb-md-0">Discover quality products at amazing prices with free shipping!</p>
         </div>
         <div class="col-md-4 text-md-end">
-            <a href="#products" class="btn btn-light">Shop Now</a>
+            <a href="#products" class="btn btn-light">
+                <i class="fas fa-shopping-bag me-2"></i>Shop Now
+            </a>
         </div>
     </div>
 </div>
 
 <!-- Products Section -->
 <section id="products">
-    <h2 class="mb-4"><?= $category ? ucfirst($category) : 'All Products' ?></h2>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2><?= $category ? ucfirst($category) : 'All Products' ?></h2>
+        <div class="dropdown">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown">
+                <i class="fas fa-sort me-1"></i> Sort By
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                <li><a class="dropdown-item" href="#">Price: Low to High</a></li>
+                <li><a class="dropdown-item" href="#">Price: High to Low</a></li>
+                <li><a class="dropdown-item" href="#">Popularity</a></li>
+                <li><a class="dropdown-item" href="#">Newest First</a></li>
+            </ul>
+        </div>
+    </div>
     
     <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
         <?php foreach ($products as $product): ?>
@@ -36,11 +51,11 @@ include 'includes/header.php';
                 <?php endif; ?>
                 
                 <a href="product.php?id=<?= $product['id'] ?>">
-                    <img src="assets/images/products/<?= $product['thumbnail'] ?>" class="card-img-top product-image" alt="<?= $product['name'] ?>">
+                    <img src="https://via.placeholder.com/300x200?text=<?= urlencode($product['name']) ?>" class="card-img-top product-image" alt="<?= $product['name'] ?>">
                 </a>
                 
                 <div class="card-body">
-                    <a href="product.php?id=<?= $product['id'] ?>" class="text-decoration-none text-dark">
+                    <a href="product.php?id=<?= $product['id'] ?>" class="text-decoration-none">
                         <h5 class="product-title"><?= $product['name'] ?></h5>
                     </a>
                     
@@ -51,7 +66,7 @@ include 'includes/header.php';
                                 <?= formatPrice($product['original_price']) ?>
                             </span>
                             <?php endif; ?>
-                            <span class="fw-bold"><?= formatPrice($product['price']) ?></span>
+                            <span class="fw-bold current-price"><?= formatPrice($product['price']) ?></span>
                         </div>
                         
                         <?php if (isset($product['rating'])): ?>
@@ -70,16 +85,16 @@ include 'includes/header.php';
                     </div>
                     
                     <div class="d-grid gap-2">
-                        <a href="product.php?id=<?= $product['id'] ?>" class="btn btn-outline-primary btn-sm">
-                            <i class="fas fa-eye"></i> Preview Item
-                        </a>
                         <button class="btn btn-primary btn-sm add-to-cart"
                                 data-id="<?= $product['id'] ?>"
                                 data-name="<?= $product['name'] ?>"
                                 data-price="<?= $product['price'] ?>"
                                 data-image="<?= $product['thumbnail'] ?>">
-                            <i class="fas fa-shopping-cart"></i> Add to Cart
+                            <i class="fas fa-shopping-cart me-1"></i> Add to Cart
                         </button>
+                        <a href="product.php?id=<?= $product['id'] ?>" class="btn btn-outline-primary btn-sm">
+                            <i class="fas fa-eye me-1"></i> View Details
+                        </a>
                     </div>
                 </div>
             </div>

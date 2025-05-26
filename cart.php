@@ -7,8 +7,9 @@ include 'includes/header.php';
 
 <div class="row">
     <div class="col-lg-8">
-        <div class="card mb-4">
+        <div class="card mb-4 border-0 shadow-sm">
             <div class="card-body">
+                <h4 class="mb-4"><i class="fas fa-shopping-cart me-2"></i>Your Shopping Cart</h4>
                 <div id="cart-items">
                     <!-- Cart items will be loaded here via JavaScript -->
                     <div class="text-center py-5">
@@ -22,9 +23,9 @@ include 'includes/header.php';
     </div>
     
     <div class="col-lg-4">
-        <div class="card">
+        <div class="card border-0 shadow-sm">
             <div class="card-body">
-                <h5 class="card-title">Order Summary</h5>
+                <h5 class="card-title mb-4">Order Summary</h5>
                 
                 <div class="d-flex justify-content-between mb-2">
                     <span>Subtotal:</span>
@@ -33,20 +34,24 @@ include 'includes/header.php';
                 
                 <div class="d-flex justify-content-between mb-2">
                     <span>Shipping:</span>
-                    <span>Free</span>
+                    <span class="text-success">Free</span>
                 </div>
                 
                 <hr>
                 
                 <div class="d-flex justify-content-between mb-3">
                     <strong>Total:</strong>
-                    <strong id="total">LKR 0.00</strong>
+                    <strong id="total" class="text-primary">LKR 0.00</strong>
                 </div>
                 
                 <!-- WhatsApp Checkout Button -->
-                <button class="btn btn-success w-100" id="whatsapp-checkout-btn" disabled>
-                    <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                <button class="btn btn-success w-100 py-2 mb-3" id="whatsapp-checkout-btn" disabled>
+                    <i class="fab fa-whatsapp me-2"></i> Order via WhatsApp
                 </button>
+                
+                <a href="index.php" class="btn btn-outline-primary w-100">
+                    <i class="fas fa-arrow-left me-2"></i> Continue Shopping
+                </a>
                 
                 <!-- Admin link (you might want to hide this in production) -->
                 <div class="text-center mt-3">

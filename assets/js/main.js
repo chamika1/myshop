@@ -15,6 +15,17 @@ document.addEventListener('DOMContentLoaded', function() {
             const productPrice = parseFloat(this.getAttribute('data-price'));
             const productImage = this.getAttribute('data-image');
             
+            // Add animation to button
+            this.innerHTML = '<i class="fas fa-check me-1"></i> Added!';
+            this.classList.add('btn-success');
+            this.disabled = true;
+            
+            setTimeout(() => {
+                this.innerHTML = '<i class="fas fa-shopping-cart me-1"></i> Add to Cart';
+                this.classList.remove('btn-success');
+                this.disabled = false;
+            }, 1500);
+            
             // Check if product is already in cart
             const existingProduct = cart.find(item => item.id === productId);
             
@@ -72,13 +83,16 @@ document.addEventListener('DOMContentLoaded', function() {
     function showNotification(message) {
         const notification = document.createElement('div');
         notification.className = 'notification slide-up';
-        notification.textContent = message;
+        notification.innerHTML = `<i class="fas fa-check-circle me-2"></i>${message}`;
         
         document.body.appendChild(notification);
         
         setTimeout(() => {
-            notification.remove();
-        }, 3000);
+            notification.classList.add('fade-out');
+            setTimeout(() => {
+                notification.remove();
+            }, 500);
+        }, 2500);
     }
 
     // Add animation to product cards
